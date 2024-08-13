@@ -72,3 +72,23 @@ yarn-error.log
 !.yarn/releases
 !.yarn/sdks
 !.yarn/versions
+
+# Node modules directory
+node_modules/
+
+# Expo directory (if using Expo)
+.expo/
+
+# Build directories for Android and iOS (if applicable)
+android/
+ios/
+
+# MacOS specific files
+.DS_Store
+
+# IDE specific files (optional, depending on your setup)
+.vscode/
+.idea/
+
+# Logs
+*.log
